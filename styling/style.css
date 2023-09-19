@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+:root{
+    --main-button-color: #242742;
+    --background-color : hsl(235, 18%, 26%) ;
+    --main-head-color:  hsl(234, 29%, 20%);
+    --paragraph-color: hsl(231, 7%, 60%);
+
+    
+
+    
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--background-color);
+    height: 100vh;
+    
+   
+}
+.container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 380px 286px;
+    height: 400px;
+    width: 668px;
+    overflow: hidden;
+    border-radius: 20px;
+    
+    
+}
+
+.side-image{
+    height: 400px;
+    width: 250px;
+}
+
+.card{
+  overflow: hidden;
+  padding: 40px 10px 30px 30px;
+  width: 100%;
+  
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    
+    
+
+}
+
+.list-style > li{
+    list-style: none;
+    line-height: 10px;
+    font-size: 10px;
+    
+    
+    
+
+}
+
+.list-style >  li > span > img{
+    height: 20px;
+   height: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+    list-style: none;
+    
+}
+.list-style > li > span{
+    font-size: 16px;
+    white-space: nowrap;
+    color: hsl(235, 18%, 26%);
+    
+}
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: var(--main-head-color);
+    padding-bottom: 10px;
+
+    
+}
+
+.head-statement{
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: hsl(235, 18%, 26%);
+    
+}
+.list-style{
+    padding-bottom: 20px;
+    
+}
+.email-head{
+    color: var(--main-head-color);
+    font-family: 'roboto';
+    font-weight: 700;
+    font-size: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+input[type=text]{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1.71px;
+    border-style: groove;
+    
+
+}
+
+
+input[type=submit]{
+    margin-top: 0px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+}
+
+
+input[type=submit]:hover{
+    cursor: pointer;
+    background-color: hsl(4, 100%, 67%);
+}
+
+.error{
+    margin-left: 145px;
+}
+
