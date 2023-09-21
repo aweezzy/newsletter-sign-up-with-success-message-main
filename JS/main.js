@@ -27,7 +27,7 @@ function formValidation(){
         returnval = false;
     } 
     else if(email.match(validRegex)){
-        
+        document.getElementById("FormID").action = '/success.html';
     }
     console.log(document.getElementsByClassName('personal-email'));
     document.getElementsByClassName('personal-email').innerHTML = document.forms['PracticeForm']['femail'].value;
